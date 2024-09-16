@@ -10,8 +10,8 @@ This plugin converts JSON requests to XML format before forwarding them to the u
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ngaikwad28/my-plugin.git
-   cd my-plugin
+   git clone https://github.com/ngaikwad28/xml-to-json.git
+   cd xml-to-json
 ==========================================================================================
 
 
@@ -22,10 +22,10 @@ This plugin converts JSON requests to XML format before forwarding them to the u
    If you have LuaRocks installed, navigate to the plugin directory and run:
 
    ```bash
-   luarocks make my-plugin-0.1.0-1.rockspec
+   luarocks make xml-to-json-0.1.0-1.rockspec
 
 2. **Enable plugin to service  
 curl -X POST http://localhost:8001/services/{service}/plugins \
-  --data "name=my-plugin" \
+  --data "name=xml-to-json" \
   
 
