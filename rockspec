@@ -2,18 +2,12 @@ package = "xml-to-json"
 version = "1.0.0-1"
 
 source = {
-  url = "git://github.com/ngaikwad28/xml-to-json.git",
-  tag = version
+  url = "git://github.com/ngaikwad28/xml-to-json.git"
 }
 
 description = {
   summary = "A Kong plugin to convert XML to JSON",
-  detailed = "This plugin converts XML request bodies to JSON format.",
-  homepage = "https://github.com/your-repo/xml-to-json",
-  license = "MIT",
-  licenses = {
-    { name = "MIT", url = "https://opensource.org/licenses/MIT" }
-  }
+  detailed = "This plugin converts XML request bodies to JSON format."
 }
 
 dependencies = {
