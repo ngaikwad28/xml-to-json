@@ -22,7 +22,7 @@ This plugin converts JSON requests to XML format before forwarding them to the u
    If you have LuaRocks installed, navigate to the plugin directory and run:
 
    ```bash
-   luarocks make xml-to-json-0.1.0-1.rockspec
+   luarocks make xml-to-json-1.0.0-1.rockspec
 
 2. **Enable plugin to service  
 curl -X POST http://localhost:8001/services/{service}/plugins \
