@@ -25,7 +25,7 @@ The `xml-to-json` for Kong Gateway provides conversion  functionalities for resp
    If you have LuaRocks installed, navigate to the plugin directory and run:
 
    ```bash
-   luarocks make xml-to-json-0.1.0-1.rockspec
+   sudo luarocks make kong-plugin-xml-to-json-0.1.0-1.rockspec 
 
 
 # Enable the Plugin
